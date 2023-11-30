@@ -1,0 +1,26 @@
+.input-group {
+  margin-bottom: 15px;
+}
+
+.label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  transition: border-color 0.3s ease;
+}
+
+.input.error {
+  border-color: #ff5555;
+}
+
+.error-message {
+  font-size: 12px;
+  color: #ff5555;
+  margin-top: 5px;
+}
